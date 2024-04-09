@@ -353,14 +353,16 @@
     }
     .btn-section {
         margin-top: 200px;
+        display: flex;
+        justify-content: center;
     }
     .btn-section .column {
         padding: 40px 15px 40px 15px;
-        left: 12px;
+        left: auto;
         align-items: center;
     }
     .column h3 {
-        font-size: 19px;
+        font-size: 17px;
         padding-block: 0;
         padding-bottom: 30px;
     }
