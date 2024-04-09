@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Poppins",sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-1 {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 50px 70px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 65px;
+}
+.nav-bar img {
+    width: 180px;
+}
+.nav-bar button {
+    color: hsl(192, 100%, 9%);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 11px 60px;
+    border-radius: 120px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 1px 5px 14px rgba(0, 0, 0, 0.085);
+}
+.down-section {
+    display: flex;
+    justify-content: space-around;
+}
+.img-area img  {
+    width: 85%;
+    margin-left: 95px;
+}
+.text-area {
+    margin-top: 95px;
+}
+.text-area h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    max-width: 390px;
+    padding-bottom: 30px;
+}
+.text-area p {
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 685px;
+    padding-bottom: 35px;
+}
+.text-area button {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    padding: 20px 70px;
+    border-radius: 130px;
+    color: #ffffffd5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.section-2 {
+    padding: 140px 100px 30px 100px;
+}
+.img-area-2 img {
+    width: 425px;
+}
+.text-area-2 h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+.text-area-2 p {
+    color: hsla(209, 11%, 55%, 0.868);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 530px;
+}
+.shadow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 1px 5px 14px rgba(0, 0, 0, 0.085);
+    border-radius: 12px;
+    padding: 45px 30px 50px 120px;
+}
+.section-3 {
+    padding: 0px 100px 30px 100px;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+.section-4 {
+    padding: 0px 100px 30px 100px;
+}
+.btn-section {
+    position: relative;
+    margin-top: 300px;
+}
+.btn-section h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    padding-block: 30px 35px;
+}
+.btn-section button {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    box-shadow: 2px 11px 14px rgba(0, 0, 0, 0.085);
+    padding: 25px 115px;
+    border-radius: 120px;
+    color: #ffffffe8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 1px 5px 14px rgba(0, 0, 0, 0.085);
+    border-radius: 12px;
+    padding: 45px 130px 55px 130px;
+    position: absolute;
+    left: 23%;
+    top: -190px;
+}
+.footer-section {
+    background-color: hsl(192, 100%, 9%);
+    padding: 170px 80px 30px 50px;
+}
+.child-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.footer-section .left .img {
+    color: hsl(240, 75%, 98%);
+    filter: invert(2);
+}
+.location-img {
+    display: flex;
+    margin-top: 40px;
+}
+.location-img img {
+    width: 18px;
+    height: 20px;
+    margin-top: 6px;
+}
+.location-img p {
+    margin-left: 30px;
+    color: hsla(192, 100%, 96%, 0.858);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    max-width: 330px;
+}
+
+.phone-logo {
+    display: flex;
+    margin-top: 30px;
+}
+
+.mail-logo {
+    display: flex;
+    margin-top: 30px;
+}
+
+.phone-logo span {
+    color: hsla(192, 100%, 96%, 0.858);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.mail-logo span {
+    color: hsla(192, 100%, 96%, 0.858);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.middle {
+    display: flex;
+    margin-top: 60px;
+}
+
+.text-1 {
+    display: flex;
+    flex-direction: column;
+    margin-inline: -50px 90px;
+    color: hsla(192, 100%, 96%, 0.858);
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-2 {
+    display: flex;
+    flex-direction: column;
+    color: hsla(192, 100%, 96%, 0.858);
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-1 span {
+    margin: 7px;
+}
+
+.text-2 span {
+    margin: 7px;
+}
+
+.footer-section .right {
+    display: flex;
+    flex-direction: row;
+    margin-right: 85px;
+}
+
+.footer-section .right span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    color: hsla(192, 100%, 96%, 0.858);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.footer-section .right a {
+    text-decoration: none;
+    color: hsl(240, 75%, 98%);
+}
+.copy-right {
+    color: hsla(192, 100%, 96%, 0.858);
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 40px;
+}
+@media (max-width: 700px) {
+    .section-1 {
+        padding: 25px 20px 40px 20px;
+    }
+    .nav-bar {
+        padding-bottom: 0px;
+    }
+    .nav-bar button {
+        padding: 4px 30px;
+        font-size: 13px;
+    }
+    .nav-bar img {
+        width: 110px;
+    }
+    .down-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-area {
+        text-align: center;
+    }
+    .img-area img {
+        margin-left: 0;
+        width: 90%;
+    }
+    .text-area h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .text-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .text-area p {
+        text-align: center;
+        font-size: 15px;
+        max-width: 310px;
+    }
+    .section-2 {
+        padding: 50px 25px 35px 25px;
+    }
+    .shadow {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px 35px 40px 35px;
+    }
+    .img-area-2 {
+        text-align: center;
+    }
+    .img-area-2 img {
+        width: 90%;
+    }
+    .text-area-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-area-2 h3 {
+        font-size: 23px;
+        text-align: center;
+        padding-top: 55px;
+    }
+    .text-area-2 p {
+        text-align: center;
+        font-size: 13px;
+        max-width: 253px;
+    }
+    .img-3 {
+        padding-top: 20px;
+    }
+    .text-3 p {
+        font-size: 13px;
+        max-width: 246px;
+        padding-bottom: 15px;
+    }
+    .text-3 h3 {
+        padding-top: 70px;
+        font-size: 20px;
+    }
+    .section-3 {
+        padding: 5px 25px 35px 25px;
+    }
+    .section-3 .text-area-2 h3 {
+        font-size: 22px;
+    }
+    .section-4 {
+        padding: 5px 25px 35px 25px;
+    }
+    .section-4 .text-3 p {
+        max-width: 245px;
+        font-size: 13px;
+    }
+    .btn-section {
+        margin-top: 200px;
+    }
+    .btn-section .column {
+        padding: 40px 15px 40px 15px;
+        left: 10px;
+        align-items: center;
+    }
+    .column h3 {
+        font-size: 19px;
+        padding-block: 0;
+        padding-bottom: 30px;
+    }
+    .column button {
+        padding: 15px 60px;
+        font-size: 13px;
+    }
+    .column {
+        top: -115px;
+    }
+    .footer-section {
+        padding: 150px 20px 40px 20px;
+    }
+    .child-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-bottom: 20px;
+    }
+    .footer-section .middle {
+        display: flex;
+        flex-direction: column;
+    }
+    .child-footer .text-1 {
+        margin-inline: 0;
+    }
+    .child-footer .right {
+        margin-right: 0;
+        align-self: center;
+    }
+    .copy-right {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+}
